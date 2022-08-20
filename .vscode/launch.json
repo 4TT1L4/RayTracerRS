@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'RayTracerRS'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=RayTracerRS",
+                    "--package=RayTracerRS"
+                ],
+                "filter": {
+                    "name": "RayTracerRS",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'RayTracerRS'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=RayTracerRS",
+                    "--package=RayTracerRS"
+                ],
+                "filter": {
+                    "name": "RayTracerRS",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
