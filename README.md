@@ -4,4 +4,4 @@ Simple ray tracing application with ASCII/Console rendering written entirely in 
 
 # Preview 
 
-![Test](https://github.com/BujakiAttila/RayTracerRS/blob/master/doc/preview.gif?raw=true)
+![Preview](https://raw.githubusercontent.com/4TT1L4/RayTracerRS/main/media/preview.gif)
