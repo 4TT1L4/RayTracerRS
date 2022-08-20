@@ -1,7 +1,8 @@
 [package]
-name = "RayTracerRS"
+name = "ray_tracer_rs"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 crossterm = "*"
+chrono = "0.4"
